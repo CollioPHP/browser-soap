@@ -1,11 +1,11 @@
 {
-  "name": "@tjoussen/browser-soap",
-  "version": "1.0.7",
+  "name": "@coolioPHP/browser-soap",
+  "version": "2.1.7",
   "description": "A minimal SOAP client in javascript, so tiny it even runs in browser",
   "engines": {
     "node": ">=0.8.0"
   },
-  "author": "Thomas Joussen <tjoussen@databay.de>",
+  "author": "Peter Meyer <andrefacbok@gmail.com>",
   "dependencies": {
     "node-xml": "1.0.2"
   },

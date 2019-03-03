@@ -4,6 +4,7 @@ This module lets you connect to web services using SOAP, in pure javascript, usi
 
 This module is forked from node module "tinysoap@1.0.2".  Specific changes are:
 
+* more xml
 * You don't need jQuery anymore
 
 
@@ -119,5 +120,4 @@ WSSecurity implements WS-Security.  UsernameToken and PasswordText/PasswordDiges
 ## WSDL Options
 
 * **flattenArray** (*default: true*): If false, array child values will be processed as child node elements with its parent node name
-* **childNodeMap** (*default: {}*): Translate the parent node name into another alias which is used as name for child node values. Only used if `flattenArray: false` 
- 
+* **childNodeMap** (*default: {}*): Translate the parent node name into another alias which is used as name for child node values. Only used if `flattenArray: false`
